@@ -2,14 +2,13 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import './Footer.css'
 import logo from '../../../assets/footerlogo.png'
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer text-white px-4 xl:px-32 py-8">
       <div className="xl:hidden">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-        {/* Footer Columns */}
+        
         <div className="ps-12 lg:ps-0">
           <img src={logo} alt="" className="mb-4"/>
           <p className="footer-text">India's first platform dedicated to <br /> simplifying partner search</p>
@@ -51,8 +50,6 @@ const Footer = () => {
       </div>
 
       <hr className="my-8"/>
-
-      {/* Copyright text and social icons */}
       <div className="container mx-auto flex justify-between flex-col md:flex-row items-center mt-4">
         <p className="footer-text mb-4 md:mb-0 text-center">Sambhaji Nagar, No2, St. Antony Road, Chembur, Mumbai - 400071, Maharashtra</p>
         
