@@ -15,27 +15,36 @@ const Header = () => {
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="me-4 lg:me-12" />
           <div className="hidden md:flex ml-auto">
-            <select name="cars" id="cars" className="all-nav-links">
-              <option value="volvo">Solutions</option>
-              <option value="saab">Saab</option>
-              <option value="opel">Opel</option>
-              <option value="audi">Audi</option>
+            <select name="solutions" id="solutions" className="all-nav-links">
+              <option value="solutions">Solutions</option>
+              <option value="solution1">Solution 1</option>
+              <option value="solution2">Solution 2</option>
+              <option value="solution3">Solution 3</option>
             </select>
-            <select name="cars" id="cars" className="all-nav-links ms-3 lg:ms-10">
-              <option value="volvo">Features</option>
-              <option value="saab">Saab</option>
-              <option value="opel">Opel</option>
-              <option value="audi">Audi</option>
+            <select
+              name="features"
+              id="features"
+              className="all-nav-links ms-3 lg:ms-10"
+            >
+              <option value="features">Features</option>
+              <option value="features1">Feature 1</option>
+              <option value="features2">Feature 2</option>
+              <option value="features3">Feature 3</option>
             </select>
+            
             <a href="/" className="all-nav-links  ms-3 lg:ms-10">
               Blogs
             </a>
-            <a href="/" className="all-nav-links  ms-3 lg:ms-10">
-              About
-            </a>
-            {/* <a href="/" className="all-nav-links  ms-3 lg:ms-10">
-              Contact
-            </a> */}
+            <select
+              name="about"
+              id="about"
+              className="all-nav-links ms-3 lg:ms-10"
+            >
+              <option value="about">About</option>
+              <option value="about1">About 1</option>
+              <option value="about2">About 2</option>
+              <option value="about3">About 3</option>
+            </select>
           </div>
         </div>
         <div className="hidden md:flex space-x-2 lg:space-x-4">
@@ -95,34 +104,35 @@ const Header = () => {
       {isOpen && (
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-start flex flex-col">
-            <select name="cars" id="cars" className="all-nav-links">
-              <option value="volvo">Solutions</option>
-              <option value="saab">Saab</option>
-              <option value="opel">Opel</option>
-              <option value="audi">Audi</option>
+            <select name="solutions" id="solutions" className="all-nav-links">
+              <option value="solutions">Solutions</option>
+              <option value="solution1">Solution 1</option>
+              <option value="solution2">Solution 2</option>
+              <option value="solution3">Solution 3</option>
             </select>
-            <select name="cars" id="cars" className="all-nav-links">
-              <option value="volvo">Features</option>
-              <option value="saab">Saab</option>
-              <option value="opel">Opel</option>
-              <option value="audi">Audi</option>
+            <select name="features" id="features" className="all-nav-links">
+              <option value="features">Features</option>
+              <option value="features1">Feature 1</option>
+              <option value="features2">Feature 2</option>
+              <option value="features3">Feature 3</option>
             </select>
             <a href="/" className="all-nav-links ml-[5px]">
               Blogs
             </a>
-            <a href="/" className="all-nav-links ml-[5px]">
-              About
-            </a>
-            {/* <a href="/" className="all-nav-links ml-[5px]">
-              Contact
-            </a> */}
+            <select name="about" id="about" className="all-nav-links">
+              <option value="about">About</option>
+              <option value="about1">About 1</option>
+              <option value="about2">About 2</option>
+              <option value="about3">About 3</option>
+            </select>
+
             <div className="flex justify-around pt-5">
-            <a href="/login" className="login">
-            Login
-          </a>
-          <a href="/register" className="register">
-            Register
-          </a>
+              <a href="/login" className="login">
+                Login
+              </a>
+              <a href="/register" className="register">
+                Register
+              </a>
             </div>
           </div>
         </div>

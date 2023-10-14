@@ -32,11 +32,14 @@
   font-weight: 700;
   line-height: 26px; /* 162.5% */
 }
-.all-nav-links{
+.all-nav-links {
   color: var(--Black, #000);
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+select{
+  background-color: transparent;
 }
