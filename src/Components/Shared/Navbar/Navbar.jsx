@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import logo from "../../../assets/logoipsum.png";
 import downarrow from "../../../assets/downarrow.png";
-import "./Header.css";
+import "./Navbar.css";
 
-const Header = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -185,4 +185,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

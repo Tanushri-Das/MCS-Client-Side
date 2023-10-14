@@ -6,6 +6,7 @@ import { MdDateRange } from "react-icons/md";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import anti from "../../assets/anti.png";
 import Spinner from "../../Components/Spinner/Spinner";
+import Navbar from "../../Components/Shared/Navbar/Navbar";
 
 const DetailsPage = () => {
   const { _id } = useParams();
@@ -32,11 +33,12 @@ const DetailsPage = () => {
 
     fetchData();
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [_id]);
 
   return (
-    <div className="px-4 xl:px-32 mt-[100px] mb-[132px]">
+    <div>
+      <Navbar/>
+      <div className="px-4 xl:px-32 mt-[100px] mb-[132px]">
       {loading ? (
         <div className="flex justify-center items-center">
           <Spinner/>
@@ -45,7 +47,7 @@ const DetailsPage = () => {
         <div className="mb-[132px]">
           {selectedResult && (
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
-              <div className="border border-red-500">
+              <div className="">
                 <h3 className="accountant-name mb-4">{selectedResult.name}</h3>
                 <p className="intro mb-8">{selectedResult.intro}</p>
                 <div className="flex items-center mb-8">
@@ -76,7 +78,7 @@ const DetailsPage = () => {
                   <p className="intro">{selectedResult.testimonial.text}</p>
                 </div>
               </div>
-              <div className="border border-red-500">
+              <div className="">
                 <img
                   className="candidate-img mb-8"
                   src={selectedResult?.image}
@@ -222,6 +224,7 @@ const DetailsPage = () => {
           <button className="chat chat-text">Back to home</button>
         </Link>
       </div>
+    </div>
     </div>
   );
 };

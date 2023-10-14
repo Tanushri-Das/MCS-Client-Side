@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import './Footer.css'
 import logo from '../../../assets/footerlogo.png'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -56,16 +57,16 @@ const Footer = () => {
         <p className="footer-text mb-4 md:mb-0 text-center">Sambhaji Nagar, No2, St. Antony Road, Chembur, Mumbai - 400071, Maharashtra</p>
         
         <div className="flex space-x-4 mt-4 md:mt-0">
-          <a href="#">
+          <a href="https://www.facebook.com/tanushri.das01?mibextid=ZbWKwL" target="_blank">
             <FaFacebook size={24} />
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/tanushri.das01?mibextid=ZbWKwL" target="_blank">
             <FaInstagram size={24} />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/tanushri-das-06a520194/" target="_blank">
             <FaLinkedin size={24} />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/tanushri-das-06a520194/" target="_blank">
             <FaWhatsapp size={24} />
           </a>
         </div>
@@ -121,16 +122,16 @@ const Footer = () => {
         <p className="footer-text mb-4 md:mb-0 text-center">Sambhaji Nagar, No2, St. Antony Road, Chembur, Mumbai - 400071, Maharashtra</p>
         
         <div className="flex space-x-4 mt-4 md:mt-0">
-          <a href="#">
+          <a href="https://www.facebook.com/tanushri.das01?mibextid=ZbWKwL" target="_blank">
             <FaFacebook size={24} />
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/tanushri.das01?mibextid=ZbWKwL" target="_blank">
             <FaInstagram size={24} />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/tanushri-das-06a520194/" target="_blank">
             <FaLinkedin size={24} />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/tanushri-das-06a520194/" target="_blank">
             <FaWhatsapp size={24} />
           </a>
         </div>

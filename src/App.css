@@ -1,7 +1,4 @@
 .App {
-  background-image: url('../src/assets/Gradient\ background.png');
-  background-repeat: no-repeat;
-  background-position: top center;
   background-color: #fff;
   box-shadow: 0px 5.71429px 11.42857px 0px rgba(0, 0, 0, 0.05) inset;
 }
