@@ -1,0 +1,92 @@
+.login {
+  display: flex;
+  width: 100px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  border: 1.5px solid #0076ce;
+  color: #0076ce;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+.register {
+  display: flex;
+  width: 100px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  background: #0076ce;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+/* .all-nav-links {
+  color: var(--Black, #000);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+} */
+select{
+  background-color: transparent;
+}
+.custom-select {
+  position: relative;
+  display: inline-block;
+}
+
+.all-nav-links {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: none;
+  color: var(--Black, #000);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100px; /* Set a width to control the select's width */
+}
+
+.select-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Style the icon image as needed */
+.select-icon img {
+  width: 20px; /* Set the width of your custom icon */
+  height: auto; /* Maintain aspect ratio */
+}
+.feature-select-icon{
+  right: -15px;
+}
+.mobile-feature-select-icon{
+  right: 17px;
+}
+.mobile-about-select-icon {
+  right: 15px;
+}
+.about-select-icon{
+  right: 10px;
+}
+select:hover{
+  cursor: pointer;
+}

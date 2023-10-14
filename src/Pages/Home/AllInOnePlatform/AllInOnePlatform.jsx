@@ -10,7 +10,7 @@ import "./AllInOnePlatform.css";
 const AllInOnePlatform = () => {
   return (
     <div className="px-4 xl:px-32 mt-[132px] lg:flex justify-center mb-[135px] w-100">
-      <div className="border border-red-500 w-full lg:w-[55%]">
+      <div className="w-full lg:w-[55%]">
         <p className="banner-text 2xl:whitespace-nowrap mb-4">
           <span className="partners">All-in-One</span> platform
           <br /> that Makes Easier
@@ -22,52 +22,52 @@ const AllInOnePlatform = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="flex mb-16">
             <img
-              className="icon-img me-4 border border-red-500"
+              className="icon-img me-4"
               src={search}
               alt=""
             />
-            <p className="search-text border border-red-500">
+            <p className="search-text">
               <span className="font-bold">SEARCH</span> for vital <br /> company
               information
             </p>
           </div>
           <div className="flex mb-16">
             <img
-              className="icon-img me-4 border border-red-500"
+              className="icon-img me-4"
               src={connect}
               alt=""
             />
-            <p className="search-text border border-red-500">
+            <p className="search-text">
               <span className="font-bold">CONNECT</span> with the <br />{" "}
               resources to meet your business needs
             </p>
           </div>
           <div className="flex mb-16">
             <img
-              className="icon-img me-4 border border-red-500"
+              className="icon-img me-4"
               src={research}
               alt=""
             />
-            <p className="search-text border border-red-500">
+            <p className="search-text">
               <span className="font-bold">RESEARCH </span> and
               <br /> generate reports <br /> that drive growth
             </p>
           </div>
           <div className="flex mb-16">
             <img
-              className="icon-img me-4 border border-red-500"
+              className="icon-img me-4"
               src={hat}
               alt=""
             />
-            <p className="search-text border border-red-500">
+            <p className="search-text">
               <span className="font-bold">ACADEMY </span> to give you <br />
               the skills for success <br /> in your career
             </p>
           </div>
         </div>
       </div>
-      <div className="flex border border-red-500 w-full lg:w-[45%]">
-          <div className="border border-red-500 w-[55%] mt-[55px]">
+      <div className="flex w-full lg:w-[45%]">
+          <div className="w-[55%] mt-[55px]">
             <p className="all-in-one-first-div mb-2">
               Hey, check out lorem ipsum services.
             </p>

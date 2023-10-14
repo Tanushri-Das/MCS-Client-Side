@@ -139,7 +139,9 @@
   font-weight: 400;
   line-height: 36px; /* 180% */
 }
-
+.image-not-found-text{
+  display: none;
+}
 @media (max-width: 480px) {
   .basic-to-complex {
     width: 100%;

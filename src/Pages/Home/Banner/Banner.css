@@ -6,7 +6,7 @@
   font-weight: 700;
   line-height: 80px; /* 123.077% */
 }
-.banner-bg{
+.banner-bg {
   background: linear-gradient(
     75deg,
     #feddee 0%,
@@ -83,4 +83,22 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+@media (max-width: 480px) {
+  .search-btn-text {
+    padding: 20px 30px;
+  }
+  .search-input {
+    padding-left: 15px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px){
+  .search-btn-text {
+    padding: 20px 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .search-btn-text {
+    padding: 20px 30px;
+  }
 }

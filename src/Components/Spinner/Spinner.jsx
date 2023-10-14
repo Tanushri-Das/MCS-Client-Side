@@ -2,7 +2,7 @@ import React from "react";
 
 const Spinner = () => {
   return (
-    <div class="flex">
+    <div class="flex mt-4">
       <div class="relative">
         <div
           class="w-12 h-12 rounded-full absolute
