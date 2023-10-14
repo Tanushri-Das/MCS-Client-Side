@@ -27,6 +27,8 @@ const Banner = () => {
         }
         const data = await response.json();
 
+         // Filter results based on the search text
+
         const filteredResults = data.filter(
           (item) => item.name.toLowerCase() === searchText.toLowerCase()
         );
@@ -77,8 +79,11 @@ const Banner = () => {
             <span className="search-btn-text">Search</span>
           </button>
         </div>
+         {/* Show loading spinner while fetching data */}
         {loading && <Spinner/>}
+        {/* Display error message if there's an error */}
         {error && <p>Error: {error.message}</p>}
+        {/* Display search results if found */}
         {searchResults.length > 0 && selectedResult && !loading && (
           <ul className="mt-4">
             <div>
@@ -91,6 +96,7 @@ const Banner = () => {
             </div>
           </ul>
         )}
+        {/* Display a message if no results found */}
         {!loading && searchText && !selectedResult && (
           <p className="text-red-500 mt-4 text-lg ms-3 font-medium">Name not found</p>
         )}
